@@ -1,4 +1,6 @@
-﻿using System;
+﻿// See https://aka.ms/new-console-template for more information
+using System;
+
 namespace LineComparisonProblem
 {
     class Program
@@ -11,10 +13,13 @@ namespace LineComparisonProblem
             {
                 Console.WriteLine("Enter value for coordinate \"x1\" ");
                 x1 = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Enter value for coordinate \"y1\" ");
                 y1 = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Enter value for coordinate \"x2\" ");
                 x2 = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Enter value for coordinate \"y2\" ");
                 y2 = Convert.ToInt32(Console.ReadLine());
                 //object for created for class FindingLength
@@ -23,6 +28,7 @@ namespace LineComparisonProblem
             }
             CheckEquality obj1 = new CheckEquality();
             obj1.ComputeEquals();
+
 
         }
     }
@@ -64,4 +70,8 @@ namespace LineComparisonProblem
         }
 
     }
+
+
+
 }
+
